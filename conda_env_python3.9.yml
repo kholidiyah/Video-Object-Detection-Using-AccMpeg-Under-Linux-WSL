@@ -1,0 +1,25 @@
+name: accmpeg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit=11.3
+  - pytorch=1.10
+  - torchvision=0.11
+  - pip:
+    - torchaudio==0.10.0+cu113
+    - detectron2==0.6+cu113
+    - opencv-python
+    - pycocotools
+    - colorelogs
+    - munch
+    - tqdm
+    - av
+    - matplotlib
+    - enlighten
+    - networkx
+    - tensorboard
+    - pyyaml
+    - wget
